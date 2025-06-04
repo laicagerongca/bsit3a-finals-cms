@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "product_names",
+  "info": {
+    "singularName": "product-name",
+    "pluralName": "product-names",
+    "displayName": "Product"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "product_name": {
+      "type": "string"
+    },
+    "product_description": {
+      "type": "string"
+    },
+    "categories": {
+      "type": "enumeration",
+      "enum": [
+        "morning "
+      ]
+    },
+    "stock": {
+      "type": "integer"
+    },
+    "price": {
+      "type": "decimal"
+    }
+  }
+}
